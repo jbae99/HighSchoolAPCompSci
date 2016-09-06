@@ -1,0 +1,24 @@
+Int: numerical values, a 32-bit signed two's complement integer. generally used as default type for integral values
+unless there is a memory issue. Min is -2^31, max is 2^31 - 1
+
+Double: decimal values, any real number
+
+boolean: true false statements, like a switch. default is false
+
+float: singe-precision 32-bit IEEE 754 floating point. used to save memory in large arrays of floating point #s
+
+char: a single 16-bit Unicode character, min val is \u0000, max val is \uffff. used to store any character
+
+short: a 16-bit signed two's complement integer, min value is -32,768 (-2^15), max is 32,767 (2^15 -1), takes up 
+less memory than int
+
+long:64-bit singed two's complement integer. min is -2^63, max is 2^63 - 1.  Generally used when a wider range than
+int is needed
+
+Arithmetic operators: 
++: adds, also used for concatenation
+-: subtracts
+*: multiplies
+/: divides
+%: gives remainder
+
