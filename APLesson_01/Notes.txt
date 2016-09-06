@@ -1,0 +1,12 @@
+-Java scripts are just text files
+-create a text file (ending in .java) and drag into notepad++
+-start with public class filename (filename must be identical to file name)
+-open {
+-public static void main(String[]args)
+-PRINT STATEMENT: System.out.println("Hello World")
+
+-Files must be compiled before they can be executed
+-already made compile+run 
+-remember to save new exec scripts if i wanna use them frequently
+-.class files are the text files + bytecode that allows java to run it
+-certain characters wont be printed unless "escaped"; these include "\, and must be escaped by using \
