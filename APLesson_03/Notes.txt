@@ -1,0 +1,25 @@
+make sure to distinguish variables from one another, and make them easy to read
+
+Java programs are contained in classes, which are held by packages and subpackages
+
+to import a package, inport packageName.*;
+* will import all classes in that package
+
+Scanner is built in to Java, it looks for user input
+
+to create a new scanner object, 
+Scanner keyboard = new Scanner(System.in);
+creating scanner object called keyboard, is scanning input to the system
+
+int num = keyboard.nextInt();
+assigns an int variable which is the next whole number that is input into the system
+
+other Scanner Methods in AP Subset
+nextInt() - returns the next int value in the input
+nextDouble() - returns the next double value in the input
+nextFloat() - returns the next float value in the input
+nextLong() - returns the next long value in the input
+nextByte() - returns the next byte value in the input
+nextShort() - returns the next short value in the input
+next() - returns the next one word string value in the input
+nextLine() - returns the next multi-word String value in the input
