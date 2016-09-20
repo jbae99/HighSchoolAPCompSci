@@ -13,11 +13,11 @@ public class APLab_04part2
 		System.out.println("Enter your last name:");
 		String nameLast = kb.next();
 		System.out.println("Enter your title:");
-		String title  = kb.nextLine();
-		String absorb = kb.nextLine();
+		String absorb  = kb.nextLine();
+		String title = kb.nextLine();
 		System.out.println("Enter the name of your school:");
 		String school = kb.nextLine();
-		System.out.println("Enter the school year");
+		System.out.println("Enter the school year:");
 		String year = kb.nextLine();
 		System.out.println("What is your subject?");
 		String subject = kb.nextLine();
