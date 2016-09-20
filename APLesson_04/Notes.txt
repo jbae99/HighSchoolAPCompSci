@@ -1,0 +1,22 @@
+%f: 
+when is it used:holds the place of a variable in a statement, speciically  float and double
+How does it work: displays a floating point value in decimal format
+provide examples:
+double ex = 5.6
+System.out.println ("Variable ex is %f", ex);
+
+
+%d: 
+when do you use it: holds the place of a variable in a statement, specifically short, byte, int, or long
+how does it work: displays a decimal integer
+provide examples:  System.out.printf ("Welcome to %s", str);, 
+assuming str is given a meaning, %s tells the code where to place the variable in the string
+
+
+%s:
+when do you use it: holds the place of a variable in a statement, specifically strings
+how does it work: displays strings
+provide examples:
+
+
+%#s formats a column, so to speak.  It will line up all characters up to the point where the # is reached
