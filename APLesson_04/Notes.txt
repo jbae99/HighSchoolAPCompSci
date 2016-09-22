@@ -20,3 +20,19 @@ provide examples:
 
 
 %#s formats a column, so to speak.  It will line up all characters up to the point where the # is reached
+
+
+Creating a new method essentially stores some information that we can refer back to at any point repeatedly
+its kind of like a variable but for an equation or for a format or something of the like
+
+
+
+
+accessType returnType methodName(parameters)
+
+accesType: whether the method can be pulled from outside the class
+returnType: dictates what type of date is being returned(int, string, etc...)
+methodName: identifier
+parameters: lets us input data into the method
+
+
