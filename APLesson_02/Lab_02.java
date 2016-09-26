@@ -17,12 +17,12 @@ public class Lab_02
 		String a9 = "The surface area of your rectangle is ";
 	
 		
-		System.out.println(a1 * a2);
+		System.out.println(a1 * a2+"\n");
 		
-		System.out.println(a3);
-		System.out.println(a4 + a5 + a6 + a7);
+		System.out.println("\n" + a3);
+		System.out.println(a4 + a5 + "\n" + a6 + a7);
 		System.out.println(a8);
 		
-		System.out.println(a9 + k*(h*l + w*l + h*w));
+		System.out.println("\n" + a9 + k*(h*l + w*l + h*w));
 	}
 }
