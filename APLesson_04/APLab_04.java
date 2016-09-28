@@ -13,12 +13,14 @@ public class APLab_04
 		String item1 = kb.nextLine();
 		System.out.println("Please enter the price:");
 		double price1 = kb.nextDouble();
+		
 		//add item2
 		System.out.println("Please enter item 2:");
 		kb.nextLine();
 		String item2 = kb.nextLine();
 		System.out.println("Please enter the price:");
 		double price2 = kb.nextDouble();
+		
 		//add item3
 		System.out.println("Please enter item 3:");
 		String absorb2 = kb.nextLine();

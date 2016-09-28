@@ -36,3 +36,10 @@ methodName: identifier
 parameters: lets us input data into the method
 
 
+1. public methods can be accessed by programs and classes outside of the script
+
+2. The main method must be static because non static methods must have an object to run off of, 
+and since there are no objects when our code initially runs, we must have it as static so there
+is an entry point in the code
+
+3. Parameters are what allow us to enter data into the method, 
