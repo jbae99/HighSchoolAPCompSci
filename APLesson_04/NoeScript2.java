@@ -1,24 +1,26 @@
 import java.util.Scanner;
 
-public class NoteScript
+public class NoeScript2
 {
+	static double a1, last;
+	
 	public static void main(String[]args)
 	{
 		Scanner kb = new Scanner(System.in);
 		
 		System.out.println("enter a number:");
-		double a1 = kb.nextDouble();
+		a1 = kb.nextDouble();
 		
 		System.out.println("Your number to the power of 5 is:");
-		double last = power(a1);
-		print(last);
+		power();
+		print();
 	}
 	
-	public static double power(double one)
+	public static void power()
 	{
-		return Math.pow(one, 5);
+		last = Math.pow(a1, 5);
 	}
-	public static void print(double last)
+	public static void print()
 	{
 		System.out.println(last);
 	}
