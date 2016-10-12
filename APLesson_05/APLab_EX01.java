@@ -1,15 +1,12 @@
-import java.util.Scanner;
 import java.util.Random;
 
 public class APLab_EX01
 {
 	static boolean result;
 	static String winner;
-	static int player;
-	static int comp;
+	static int player, comp;
 	public static void main(String[]args)
 	{
-		Scanner kb = new Scanner(System.in);
 		Random rd = new Random();
 		
 		player = rd.nextInt(6)+1;
