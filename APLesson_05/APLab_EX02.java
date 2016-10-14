@@ -37,7 +37,7 @@ public class APLab_EX02
 		double tax = subtotal * 0.08;
 		double total = subtotal - discountPer + tax;
 	
-	System.out.println("            <<<<<<<<< Receipt >>>>>>>>>>");
+	System.out.println("                   <<<<<<<<< Receipt >>>>>>>>>>");
 	format(item1, price1);
 	format(item2, price2);
 	format(item3, price3);
@@ -46,8 +46,8 @@ public class APLab_EX02
 	format("Discount", discountPer);
 	format("Tax", tax);
 	format("Total", total);
-	System.out.println("\n             _____________________");
-	System.out.println("               Thank you for coming!");
+	System.out.println("\n                      _____________________");
+	System.out.println("                    Thank you for coming!");
 	}
 	
 	public static double calcDiscount(double subtotal)
