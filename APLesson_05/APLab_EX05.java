@@ -29,26 +29,75 @@ public class APLab_EX05
 				System.out.println("As you reach the woods, you hear a shriek from back in the village. \nIt scares you after so many hours of relative silence. \nIt could be an animal, or a person, you can't quite be sure.");
 				System.out.println("Go back(1) or head into the woods(2)?");
 				String choiceD = kb.nextLine();
+				if (choiceD.equals("1"))
+				{
+					System.out.println("On the way back to your house, you see something moving on the far edge of town. You squint but you still can't quite see it.");
+					System.out.println("You're oddly afraid. Chase it(1) or return home(2)?");
+					String choiceG = kb.nextLine();
+					if (choiceG.equals("1"))
+					{
+						System.out.println("You run after the shape, and it starts towards you. It's moving really fast.\nyou notice that it does not look like a familiar shape.");
+						System.out.println("Before you realize it, the beast has already jumped on you and killed you.");
+						System.out.println("You have died.");
+					}
+					else
+					{
+						System.out.println("You return to your house and go back to sleep. The next day everything is back to normal.");
+						System.out.println("Every now and then a sheep dissapears for no reason, but it's quite alright.");
+					}
+				}
+				else
+				{
+					System.out.println("You head into the woods. After walking for a while, you come across a clearing\nIt is oddly circular. You step into the middle.\nBranches snap behind you. You whirl around, to see...");
+					System.out.println("Everyone in your village. Dead in a pile.");
+					System.out.println("You feel a pinch in your back, and you look down to see a long thin blade protruding from your chest.");
+					System.out.println("You have died.");
+				}
 			}
 				
-			if (choiceB.equals("2"))
+			else
 			{
 				System.out.println("You head over to your best friends house and knock on his door. You hear a growl.\nGo inside(1) or back away(2)?");
 				String choiceC = kb.nextLine();
-				if (choiceC.equals(1))
+				if (choiceC.equals("1"))
 				{
 					System.out.println("You go into his house to see a hulking beast crouched over the body of your friend.\nIt turns its head to look at you.");
-					
+					System.out.println("Attack the beast(1) or run for your life(2)?");
+					String choiceE = kb.nextLine();
+					if (choiceE.equals("1"))
+					{
+						System.out.println("You run towards the beast, realizing you don't have your knife on you, and you fall under its claws...");
+						System.out.println("You have died.");
+					}
+					else
+					{
+						System.out.println("You start to sprint towards your house to grab a weapon, but on the way you encounter \nanother beast, and another when you turn. You're surrounded.");
+						System.out.println("Drop to your knees and give up(1) or try and fight(2)");
+						String choiceF = kb.nextLine();
+						if (choiceF.equals("1"))
+						{
+							System.out.println("The monsters circle you, but after a minute they skulk away, leaving the path to your house clear.\nYou run home and...");
+							System.out.println("You have survived!");
+						}
+						else
+						{
+							System.out.println("You rush the monsters, and they rip you apart easily.");
+							System.out.println("You have died.");
+						}
+					}
 				}
-				if (choiceC.equals(2))
+				else
 				{
 					System.out.println("You back away, and decide it would be better if you went home for the rest of the day");
+					System.out.println("Congratulations, you survived! You wake up the next day and everything is back to normal. \nExcept theres always two moons in the sky for some reason...");
 				}
 			}
 				
 		}
 		else
+		{
 			System.out.println("You go back to sleep, and wake up several hours later to find a\nsevered horse head in your bed. You look up into \nthe face of demon who promtly eats you.\nYou Died!");
+		}
 	}
 }
 
