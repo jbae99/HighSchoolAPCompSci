@@ -35,6 +35,7 @@ public class APLab_EX04
 			return "Very obese";
 		else 
 			return "Morbidly Obese";
+		
 	}
 }
 	
