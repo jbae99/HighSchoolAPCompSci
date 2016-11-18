@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class APLab_EX03
 {
 	public static void main(String[]args)
