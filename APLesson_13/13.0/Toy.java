@@ -1,7 +1,7 @@
 public abstract class Toy
 {
-	String name;
-	int count;
+	private String name;
+	private int count;
 	
 	public Toy()
 	{
