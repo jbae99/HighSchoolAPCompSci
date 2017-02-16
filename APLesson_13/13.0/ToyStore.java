@@ -59,7 +59,7 @@ public class ToyStore
 	
 	public String getMostFrequentToy()
 	{
-		String name;
+		String name = "";
 		int max = Integer.MIN_VALUE;
 		for(Toy t : ToyList)
 		{
@@ -70,6 +70,36 @@ public class ToyStore
 			}
 		}
 		return name;
+	}
+	
+	public String getMostFrequentType()
+	{
+		int cars = 0;
+		int figures = 0;
+		
+		for(Toy t : ToyList)
+		{
+			if(t.getType().equals("Car"))
+			{
+				cars += 1;
+			}
+			else
+			{
+				figures += 1;
+			}
+		}
+		if(cars > figures)
+		{
+			return "Cars";
+		}
+		if(figures > cars)
+		{
+			return "Action Figures";
+		}
+		else
+		{
+			return "Equal Amounts of action figures and cars!";
+		}
 	}
 	
 	public String toString()
