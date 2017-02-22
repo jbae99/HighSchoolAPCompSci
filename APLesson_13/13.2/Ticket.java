@@ -1,4 +1,4 @@
-public class Ticket
+public abstract class Ticket 
 {
 	private int serialNo;
 	
@@ -12,7 +12,7 @@ public class Ticket
 		return (int )(Math.random() * 9999999 +1);
 	}
 	
-	public abstract double getPrice()
+	public abstract double getPrice();
 	
 	public String toString()
 	{

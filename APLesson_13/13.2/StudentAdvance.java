@@ -4,7 +4,7 @@ public class StudentAdvance extends Advance
 	{
 		super();
 	}
-	public Student Advance(int n)
+	public StudentAdvance(int n)
 	{
 		super(n);
 	}
