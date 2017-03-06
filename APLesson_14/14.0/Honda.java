@@ -8,9 +8,25 @@ public class Honda implements Location
 	{
 		location = new double[2];
 	}
-	pubilc Honda(double[] l)
+	
+	public Honda(double[] l)
 	{
 		location = l;
 	}
 	
+	public int getID()
+	{
+		return (int )(Math.random() * 999999 + 1);
+	}
+	
+	public void move(int x1, int y1)
+	{
+		location[0] += x1;
+		location[1] += y1;
+	}
+	
+	public double[] getLoc()
+	{
+		return location;
+	}
 }
