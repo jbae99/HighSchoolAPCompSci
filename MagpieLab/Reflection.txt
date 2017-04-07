@@ -1,0 +1,82 @@
+TransformIWantToStatement()
+
+	I did finish the code.
+
+	  statement.trim();
+   
+		int l = statement.length();
+		String lastChar = statement.substring(l-1);
+   
+		if(lastChar.equals("."))
+		{
+			statement = statement.substring(0, statement.indexOf(lastChar));
+		}
+		
+		int psn = findKeyword(statement, "I want", 0);
+		
+		String restOfStatement = statement.substring(psn + 6).trim();
+		
+		return "Would you really be happy if you had" + restOfStatement + "?";
+
+The given code is 
+
+
+		statement = statement.trim();
+		String lastChar = statement.substring(statement
+				.length() - 1);
+		if (lastChar.equals("."))
+		{
+			statement = statement.substring(0, statement
+					.length() - 1);
+		}
+		int psn = findKeyword (statement, "I want", 0);
+		String restOfStatement = statement.substring(psn + 6).trim();
+		return "Would you really be happy if you had " + restOfStatement + "?";
+
+
+so i suppose i didnt need to cast statement.length() to a variable
+other than that my code works fine
+
+
+
+TransformYouMeStatement()
+
+
+	I did finish the code
+
+	statement.trim();
+   int l = statement.length();
+   String lastChar = statement.substring(l-1);
+   
+   if (lastChar.equals("."))
+   {
+	   statement = statement.substring(0, statement.indexOf(lastChar));
+   }
+   
+   int psnOfYou = findKeyword(statement, "You");
+   int psnOfMe = findKeyword(statement, "Me", psnOfYou + 3);
+   
+   String restOfStatement = statement.substring(psnOfYou + 3, psnOfMe);
+   return "what makes you think that I" + restOfStatement +  "you?";
+
+
+The given code is 
+
+	statement = statement.trim();
+		String lastChar = statement.substring(statement
+				.length() - 1);
+		if (lastChar.equals("."))
+		{
+			statement = statement.substring(0, statement
+					.length() - 1);
+		}
+		
+		int psnOfYou = findKeyword (statement, "you", 0);
+		int psnOfMe = findKeyword (statement, "me", psnOfYou + 3);
+		
+		String restOfStatement = statement.substring(psnOfYou + 3, psnOfMe).trim();
+		return "What makes you think that I " + restOfStatement + " you?";
+
+
+
+again, i had a variable that wasnt really necessary but actually it involved less typing so ha
